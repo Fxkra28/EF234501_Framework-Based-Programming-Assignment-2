@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{.Title}}</title>
+    <style>
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 2em; 
+            line-height: 1.6;
+        }
+        h1 { 
+            color: #333; 
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+        .actions { 
+            margin-bottom: 1.5em; 
+            font-size: 0.9em;
+        }
+        .actions a {
+            text-decoration: none;
+            color: #007bff;
+            padding: 5px 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .actions a:hover {
+            background-color: #f4f4f4;
+        }
+        .content {
+            margin-top: 1em;
+        }
+        .content a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .content a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>{{.Title}}</h1>
+
+    <div class="actions">
+        [<a href="/edit/{{.Title}}">edit page</a>]
+    </div>
+
+    <div class="content">
+        {{.Body}}
+    </div>
+</body>
+</html>

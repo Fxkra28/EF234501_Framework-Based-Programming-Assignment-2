@@ -1,0 +1,7 @@
+Welcome to the FrontPage!
+
+This is your new wiki.
+
+Try creating another page. Go to /view/TestPage or just write [TestPage] and
+
+Ini coba coba bang!
